@@ -1,8 +1,7 @@
 module Main where
-
-import qualified ListTricks                     ( someFunc )
+import           NinetyNine.Lists               ( myLast )
 
 main :: IO ()
 main = do
   putStrLn "Hello, Haskell!"
-  ListTricks.someFunc
+  print (myLast [1, 2, 3])

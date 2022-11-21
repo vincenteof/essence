@@ -29,7 +29,7 @@ common shared-properties
 
 library
     import:             shared-properties
-    exposed-modules:    ListTricks
+    exposed-modules:    NinetyNine.Lists
     hs-source-dirs:     src
 
 executable essence
