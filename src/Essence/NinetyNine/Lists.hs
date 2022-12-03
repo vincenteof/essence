@@ -1,10 +1,10 @@
-module NinetyNine.Lists where
+module Essence.NinetyNine.Lists where
 
 -- (*) Find the last element of a list.
 myLast :: [a] -> a
 myLast []       = error "empty list"
 myLast [x     ] = x
-myLast (x : xs) = myLast xs
+myLast (_ : xs) = myLast xs
 
 
 -- (*) Find the last but one element of a list.
@@ -17,7 +17,7 @@ myButLast = last . init
 elemAt :: [a] -> Int -> a
 elemAt []      _ = error "index out of bounds"
 elemAt (x : _) 1 = x
-elemAt (x : xs) k | k < 1     = error "index out of bounds"
+elemAt (_ : xs) k | k < 1     = error "index out of bounds"
                   | otherwise = elemAt xs (k - 1)
 
 elemAt' :: [a] -> Int -> a

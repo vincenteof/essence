@@ -1,7 +1,7 @@
 module Main where
-import           NinetyNine.Lists               ( myLast )
+import           Essence                        ( twoSum )
 
 main :: IO ()
 main = do
   putStrLn "Hello, Haskell!"
-  print (myLast [1, 2, 3])
+  print (twoSum 1)
