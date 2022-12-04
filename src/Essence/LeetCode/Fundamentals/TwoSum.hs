@@ -9,7 +9,7 @@ import           Data.Map                       ( Map
                                                 )
 
 twoSum :: [Int] -> Int -> (Int, Int)
-twoSum xs = twoSumIter (zip xs [1 ..]) empty
+twoSum xs = twoSumIter (zip xs [0 ..]) empty
 
 
 twoSumIter :: [(Int, Int)] -> Map Int Int -> Int -> (Int, Int)
