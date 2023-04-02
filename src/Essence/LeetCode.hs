@@ -1,5 +1,6 @@
 module Essence.LeetCode
-  ( module Essence.LeetCode.Fundamentals
-  ) where
+  ( module Essence.LeetCode.Fundamentals,
+  )
+where
 
-import           Essence.LeetCode.Fundamentals
+import Essence.LeetCode.Fundamentals

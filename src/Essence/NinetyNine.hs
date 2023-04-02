@@ -1,5 +1,6 @@
 module Essence.NinetyNine
-  ( module Essence.NinetyNine.Lists
-  ) where
+  ( module Essence.NinetyNine.Lists,
+  )
+where
 
-import           Essence.NinetyNine.Lists
+import Essence.NinetyNine.Lists

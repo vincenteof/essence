@@ -1,7 +1,8 @@
 module Essence
-  ( module Essence.NinetyNine
-  , module Essence.LeetCode
-  ) where
+  ( module Essence.NinetyNine,
+    module Essence.LeetCode,
+  )
+where
 
-import           Essence.LeetCode
-import           Essence.NinetyNine
+import Essence.LeetCode
+import Essence.NinetyNine
